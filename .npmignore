@@ -1,0 +1,9 @@
+docs/
+docConfig.json
+docLayout.tmpl
+.eslintignore
+.eslintrc.js
+Gruntfile.js
+TODO.txt
+/test/test.js
+/examples
