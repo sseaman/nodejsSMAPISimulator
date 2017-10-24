@@ -21,7 +21,7 @@ The ```simulator.js``` object is the main object for interacting with the SMAPI 
 The following is an example of a simulation using this library with Mocha. 
 
 ```
-const simulator = new (require('simulator.js'))(
+const simulator = new (require('nodejsSMAPISimulator'))(
 	'skillIDgoesHere' ,
 	{ // optional parameters
 		poolingInterval : 500,
@@ -67,7 +67,7 @@ describe('Skill Simulation', function() {
 Using the invoke command is just as easy:
 
 ```
-const simulator = new (require('../lib/simulator.js'))(
+const simulator = new (require('nodejsSMAPISimulator'))(
 	'skillIDgoesHere' ,
 	{ // optional parameters
 		poolingInterval : 500,

@@ -28,7 +28,7 @@ const ENDPOINT_REGION = 'NA';
 * @param {String} [options.endpointRegion=NA] The endpoint region of the skill
 * @param {Profile} [options.profile] The ASK CLI profile to use when calling the SMAPI SimulateSkill API
 */
-function NodeJSSMAPISimulator(skillId, options) {
+function nodeJSSMAPISimulator(skillId, options) {
 	this._skillId = skillId;
 	this._options = options ? options : {};
 
@@ -43,7 +43,7 @@ function NodeJSSMAPISimulator(skillId, options) {
 	this._apiWrapper = new APIWrapper(profile);
 }
 
-NodeJSSMAPISimulator.prototype = {
+nodeJSSMAPISimulator.prototype = {
 
 	/**
 	* Runs a simulation using the SMAPI APIs.  Will continue to poll for results until an error or success is reached
@@ -125,4 +125,4 @@ NodeJSSMAPISimulator.prototype = {
 	}
 };
 
-module.exports = NodeJSSMAPISimulator;
+module.exports = nodeJSSMAPISimulator;

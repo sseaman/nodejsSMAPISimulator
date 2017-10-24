@@ -3,7 +3,7 @@
 const assert = require('assert');
 //const log = require('winston-simple').setLevels( { 'all' : 'error' });
 
-const simulator = new (require('../lib/simulator.js'))(
+const simulator = new (require('../index.js'))(
 	'amzn1.echo-sdk-ams.app.dc03834c-b1af-47d8-a8ec-98d812daa8ce' ,
 	{ 
 		poolingInterval : 500,
