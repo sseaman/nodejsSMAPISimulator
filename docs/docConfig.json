@@ -1,0 +1,45 @@
+{
+    "_comment" : "Configuration for generating documentation for Skill Simulator",
+    "_comment" : "To build: jsdoc -c ./docs/docConfig.json ",
+     
+    "applicationName": "NodeJS SMAPI Simulator",
+    "disqus": "",
+    "googleAnalytics": "UA-84944684-1",
+    "title": "NodeJS SMAPI Simulator",
+    "openGraph": {
+        "title": "NodeJS SMAPI Simulator",
+        "type": "website",
+        "image": "",
+        "site_name": "",
+        "url": ""
+    },
+    "meta": {
+        "title": "",
+        "description": "",
+        "keyword": ""
+    },
+    "linenums": true,
+    "source": {
+        "include": [
+            "./README.md",
+            "./lib/"
+        ],
+        "includePattern": ".+\\.js(doc)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "opts": {
+        "encoding": "utf8",
+        "recurse": true,
+        "private": false,
+        "lenient": true,
+        "destination": "./docs/api"
+      
+    },
+    "templates" : {
+        "default" : {
+            "layoutFile" : "./docs/docLayout.tmpl"
+        }
+    }
+}
+
+//  "template": "./node_modules/jaguarjs-jsdoc"
