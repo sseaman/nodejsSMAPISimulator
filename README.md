@@ -10,7 +10,7 @@ You can install NodeJS SMAPI Simulator using the NPM:
 
 ## Usage
 
-The ```simulator.js``` object is the main object for interacting with the SMAPI testing APIs. It's parameters are:  
+The ```nodejsSMAPISimulator``` object is the main object for interacting with the SMAPI testing APIs. It's parameters are:  
 
     skillId [REQUIRED] - The skillId to run the test against
     locale - The locale to use for the skill. Defaults to en-US
