@@ -6,7 +6,7 @@ A NodeJS based skill simulator library that uses the Amazon SMAPI /simulate and 
 
 You can install NodeJS SMAPI Simulator using the NPM:
 
-    npm install nodejsSMAPISimulator
+    npm install nodejs-smapi-simulator
 
 ## Usage
 

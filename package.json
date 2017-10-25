@@ -1,5 +1,5 @@
 {
-  "name": "nodejsSMAPISimulator",
+  "name": "nodejs-smapi-simulator",
   "version": "0.5.0",
   "description": "A Skill Testing Framework that leverages the SMAPI skill testing APIs",
   "devDependencies": {
